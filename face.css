@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    overflow-x: hidden;
+    background:rgb(235, 235, 235);
+}  
+header{
+    background:rgb(235, 235, 235);
+    margin-top:50px;
+    margin-bottom: 20px;
+}  
+.facebook{
+    display:block;
+    margin:0 auto;
+    height: auto;
+    width: 300px;
+}
+.facebook img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container{
+    background:white;
+    min-width: 400px;
+    border-radius: 5px;
+    display:block;
+    width: 30%;
+    margin:0 auto;
+    -webkit-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.45);
+    box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.45);
+    text-align: center;
+}
+form{
+    margin:0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0 40px;
+}
+form span{
+    padding-top: 10px;
+    margin:5px auto;
+    display:block;
+    line-height: 50px;
+    width: 200px;
+    font-size: 1em;
+    text-align: center;
+}
+form input, button{
+    border-color: rgba(30,30,30,0.2);
+    display:block;
+    width: 100%;
+    padding:10px 15px;
+    margin:15px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+}
+input:focus{
+    outline:none;
+}
+button{
+    background: rgb(24, 119, 242);
+    color:white;
+    font-size: large;
+    border:0;
+}
+.container > a{
+    margin:10px auto 10px auto;
+    display:block;
+    width: max-content;
+    color: rgb(24, 119, 242);
+}
+
+fieldset{
+    border-color: rgba(255, 255, 255, 0.9);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    width: 90%;
+    margin:0 auto;
+    display:block;
+    }
+    legend{
+        display:block;
+        width:30px;
+        color: rgba(82, 82, 82, 0.9);
+}
+.nc{
+    background: rgb(24, 119, 242);
+    display: block;
+    margin:20px auto;
+    width: 70%;
+    padding:10px 15px;
+}
+main{
+    padding-bottom: 70px;
+    background:rgb(235, 235, 235);
+}
+.info{
+    width: 100%;
+    background:white;
+    box-sizing: border-box;
+    padding:30px;
+}
+.info nav{
+    display:block;
+    margin:0 auto;
+    width: 80%;
+    word-spacing: 20px;
+    text-decoration:none;
+}
+a{
+    text-decoration: none;
+    color: rgba(82, 82, 82, 0.9);
+}
