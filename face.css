@@ -15,23 +15,25 @@ header{
 }  
 .content{
     background:#f0f2f5;
-    padding-top:0.5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .facebook{
-    display:block;
-    margin:0 auto;
-    height: auto;
-    width: 300px;
+    position:relative;
+    top: -10px;
+    width: 250px;
 }
 .facebook img{
     width: 100%;
-    border-radius: 10px;
 }
 main{
     display:flex;
     justify-content:center;
 }
 .container{
+    position:relative;
+    top: -20px;
     background:white;
     min-width: 400px;
     border-radius: 5px;
