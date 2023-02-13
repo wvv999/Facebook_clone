@@ -9,12 +9,12 @@ html,body{
     background:white;
 }  
 header{
-    background:rgb(235, 235, 235);
+    background:#f0f2f5;
     margin-top:50px;
     margin-bottom: 20px;
 }  
 .content{
-    background:rgb(235, 235, 235);
+    background:#f0f2f5;
     padding-top:0.5%;
 }
 .facebook{
@@ -99,7 +99,7 @@ fieldset{
 }
 main{
     padding-bottom: 70px;
-    background:rgb(235, 235, 235);
+    background:#f0f2f5;
 }
 footer{
     display:flex;
