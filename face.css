@@ -69,13 +69,13 @@ button{
     background:#1877f2;
     color:#fff;
     border:transparent;
-    display:block
+    display:block;
 }
 .container > a{
     margin:10px auto 20px;
     display:block;
     width:max-content;
-    color:#1877f2
+    color:#1877f2;
 }
 fieldset{
     border-color:rgba(255,255,255,0.9);
@@ -85,17 +85,18 @@ fieldset{
     box-sizing:border-box;
     width:90%;
     margin:0 auto;
-    display:block
+    display:block;
 }
 legend{
-    width:100%;
+    display:block;
+    margin: 0 auto;
+    width: 50px;
     color:rgba(82,82,82,0.9);
 }
 .nc{
     background:#42b72a;
     margin:20px auto;
     width:50%;
-    padding:10px 15px
 }
 .ec{
     font-family: Arial, Helvetica, sans-serif;
