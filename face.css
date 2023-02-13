@@ -36,13 +36,13 @@ main{
     top: -20px;
     background:white;
     min-width: 400px;
-    border-radius: 5px;
+    border-radius: 0.4em;
     width: 400px;
     height: 380px;
     -webkit-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.45);
     -moz-box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.45);
     box-shadow: 0px 10px 20px -3px rgba(0,0,0,0.45);
-    padding: 15px;
+    padding: 25px;
 }
 form{
     display:flex;
@@ -55,7 +55,7 @@ form span{
     margin-bottom:10px;
 }
 form input, button{
-    border-color: rgba(30,30,30,0.2);
+    border-color: rgba(30,30,30,0.1);
     display:flex;
     width: 100%;
     border-radius: 5px;
@@ -94,9 +94,9 @@ fieldset{
         color: rgba(82, 82, 82, 0.9);
 }
 .nc{
-    background: rgb(24, 119, 242);
+    background: #42b72a;
     margin:20px auto;
-    width: 70%;
+    width: 50%;
     padding:10px 15px;
 }
 main{
