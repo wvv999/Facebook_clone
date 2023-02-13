@@ -37,7 +37,7 @@ main{
     min-width:400px;
     border-radius:.4em;
     width:400px;
-    height:380px;
+    min-height:380px;
     -webkit-box-shadow:0 10px 20px -3px rgba(0,0,0,0.45);
     -moz-box-shadow:0 10px 20px -3px rgba(0,0,0,0.45);
     box-shadow:0 10px 20px -3px rgba(0,0,0,0.45);
