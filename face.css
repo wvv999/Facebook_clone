@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
 }
 html,body{
     height:100%;
@@ -45,7 +47,6 @@ main{
 }
 form{
     display:flex;
-    font-family:Arial,Helvetica,sans-serif;
     width:100%;
     flex-direction:column;
     text-align:center
@@ -99,7 +100,6 @@ legend{
     width:50%;
 }
 .ec{
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 .ec:hover{
@@ -110,6 +110,7 @@ main{
     background:#f0f2f5
 }
 footer{
+    
     display:flex;
     justify-content:center
 }
@@ -133,4 +134,5 @@ line-height: 25px;
 text-decoration:none;
 color:transparent;
 background-color: rgb(205, 205, 205);
+
 }
