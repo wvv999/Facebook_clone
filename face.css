@@ -155,8 +155,8 @@ color:transparent;
 background-color: rgb(205, 205, 205);
 
 }
-@media screen and (max-width:380px){
+@media (max-width:380px){
     .container{
-        width: 360px;
+        width: 320px;
     }
 }
