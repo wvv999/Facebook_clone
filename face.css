@@ -33,7 +33,6 @@ header{
 
 .facebook img{
     width:100%;
-    background-color:green;
 }
 
 main{
@@ -158,9 +157,4 @@ text-decoration:none;
 color:transparent;
 background-color: rgb(205, 205, 205);
 
-}
-@media (max-width:380px){
-    .container{
-        width: 360px;
-    }
 }
