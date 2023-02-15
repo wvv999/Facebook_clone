@@ -31,15 +31,16 @@ header{
 }
 .facebook img{width:100%
 }
+
 main{
     display:flex;
     justify-content:center
 }
+
 .container{
     position:relative;
     top:-20px;
     background:#fff;
-    min-width:400px;
     border-radius:.4em;
     width:400px;
     min-height:380px;
@@ -48,15 +49,18 @@ main{
     box-shadow:0 10px 20px -3px rgba(0,0,0,0.45);
     padding:25px
 }
+
 form{
     display:flex;
     width:100%;
     flex-direction:column;
     text-align:center
 }
+
 form span{
     margin-bottom:10px
 }
+
 form input,button{
     border-color:rgba(30,30,30,0.1);
     display:flex;
@@ -69,18 +73,21 @@ form input,button{
 input:focus{
     outline:none
 }
+
 button{
     background:#1877f2;
     color:#fff;
     border:transparent;
     display:block;
 }
+
 .container > a{
     margin:10px auto 20px;
     display:block;
     width:max-content;
     color:#1877f2;
 }
+
 fieldset{
     border-color:rgba(255,255,255,0.9);
     border-left:0;
@@ -91,32 +98,39 @@ fieldset{
     margin:0 auto;
     display:block;
 }
+
 legend{
     display:block;
     margin: 0 auto;
     width: 50px;
     color:rgba(82,82,82,0.9);
 }
+
 .nc{
     background:#42b72a;
     margin:20px auto;
     width:50%;
 }
+
 .ec{
     text-decoration: none;
 }
+
 .ec:hover{
     text-decoration: underline;
 }
+
 main{
     padding-bottom:70px;
     background:#f0f2f5
 }
+
 footer{
     
     display:flex;
     justify-content:center
 }
+
 .info{
     width:1200px;
     background:#fff;
@@ -127,15 +141,22 @@ footer{
     display:flex;
     text-align:left
 }
+
 .info nav{
 display:block;
 width:80%;
 word-spacing:20px;
 line-height: 25px;
 }
+
 .info > nav > a{
 text-decoration:none;
 color:transparent;
 background-color: rgb(205, 205, 205);
 
+}
+@media screen and (max-width:380px){
+    .container{
+        width: 360px;
+    }
 }
