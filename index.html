@@ -19,16 +19,20 @@
     </header>
     <main>
         <div class="container">
-            <form action="#" method="post">
+            <form>
                 <span>Entrar no Facebook</span> 
-                <input type="email" required placeholder="Email ou telefone">
-                <input type="password" placeholder="Senha" >
-                <button type="submit">Entrar</button>
+                <input type="email" required placeholder="Email ou telefone" id="email">
+                <input type="password" placeholder="Senha" id="password">
+                <button type="submit" id="submit">Entrar</button>
             </form>
                 <a class="ec" >Esqueceu a conta?</a>
             <form method="post" action="#">
             <fieldset>
-                <legend>ou</legend>
+                <legend>ou</legenconst formData = new FormData(document.querySelector('form'))
+
+                    const inputValue = formData.get("name")
+                    
+                    console.log(inputValue)d>
             </fieldset>
             </form>
             <button type="submit" class="nc" > Criar Conta</button>
@@ -88,6 +92,7 @@
            
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 
