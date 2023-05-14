@@ -43,7 +43,6 @@ main{
 .container{
     position:relative;
     top:-20px;
-    background:#fff;
     border-radius:.4em;
     width:400px;
     min-height:380px;
@@ -57,7 +56,15 @@ form{
     display:flex;
     width:100%;
     flex-direction:column;
-    text-align:center
+    text-align:center;
+   
+}
+#create{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    text-align:center;
+    background:red;
 }
 
 form span{
